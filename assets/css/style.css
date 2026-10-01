@@ -2,4 +2,58 @@
 
 body {
     font-family: 'Inter', sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+    color: black;
+    background-color: white;
+}
+
+header{
+    background-color: #b04900;
+    color: white;
+    padding: 10px;
+}
+nav{
+    padding: 10px;
+
+    background-color: #ffa500;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    width: 85%;
+    justify-self: center;
+}
+
+/*--- Class to be added to HTML by me (felixsheep) ---*/
+.div-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* Location, telenumber, language, ... */
+.a-contactbtn{
+    color: white;
+    padding: 3px;
+}
+
+/* Donate & Tickets: */
+.a-headerbtn{
+    padding: 5px;
+
+    background-color: #ffa500;
+    color: black;
+}
+
+.a-navbtn{
+    padding: 5px;
+    font-weight: bold;
 }
