@@ -85,3 +85,16 @@ article{
     padding: 5px;
     font-weight: bold;
 }
+
+.topbar-links a{
+    text-decoration: none;
+    color: white;
+}
+.topbar-links a:hover{
+    border-bottom: 2px solid white;
+}
+
+.topbar-links .a-lang{
+    color: #ffa500;
+    font-weight: bold;
+}
