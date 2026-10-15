@@ -31,10 +31,11 @@ main{
     display: flex;
     width: 85%;
     justify-self: center;
+    color: white;
 }
 
 /*--- Class to be added to HTML by me (felixsheep) ---*/
-.div-contact{
+.nav-contact{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -54,6 +55,8 @@ main{
 }
 
 .a-navbtn{
+    text-decoration: none;
+    color: black;
     padding: 5px;
     font-weight: bold;
 }
