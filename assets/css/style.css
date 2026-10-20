@@ -7,7 +7,7 @@ body {
     padding: 0;
 
     color: black;
-    background-color: #55593d;
+    background: url("../img/forest.jpg") no-repeat;
 }
 
 header{
@@ -39,13 +39,15 @@ nav hr{
 }
 
 main{
-    background-color: #242617;
+    background-color: rgba(36, 38, 23, 0.65);
     display: flex;
     width: 85%;
     justify-self: center;
     color: #839A2C;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
+
+    backdrop-filter: blur(3px);
 }
 aside{
     width: 75%;
@@ -57,6 +59,36 @@ aside img{
 
 article{
     padding: 10px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 38px;
+    color: white;
+}
+section{
+    margin: 50px 0 50px 50px;
+}
+section:has(h1){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+b{
+    margin-left: -50%;
+
+    display: flex;
+    align-self: flex-end;
+    font-style: italic;
+    color: gray;
+    background-color: white;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+p,i{
+    color: white;
 }
 
 /*--- Class to be added to HTML by me (felixsheep) ---*/
