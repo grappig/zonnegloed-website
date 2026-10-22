@@ -142,6 +142,43 @@ footer fieldset a:hover{
     padding: 3px;
 }
 
+form{
+    width: 100%;
+    margin: 15px;
+}
+form fieldset{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    font-weight: bold;
+
+    background-color: #b04900;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+
+    padding: 15px;
+}
+form fieldset input{
+    width: 100%;
+    margin: 5px;
+}
+form fieldset button{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #E7A12C;
+    border: none;
+}
+form fieldset button:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #94661a;
+    border: none;
+}
+
 /* Donate & Tickets: */
 .a-headerbtn{
     padding: 5px;
