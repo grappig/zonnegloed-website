@@ -16,10 +16,12 @@ header{
     padding: 10px;
 }
 nav{
+
     padding: 10px;
 
     background-color: #E7A12C;
     color: black;
+
 
     display: flex;
     flex-direction: row;
@@ -27,10 +29,20 @@ nav{
 
     font-size: 21px;
 }
+nav i{
+    transition: color 200ms;
+    color: black;
+}
+nav a:hover i{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+}
 nav a{
+    transition: color 200ms;
     margin-top: 3px;
 }
 nav a:hover{
+    color: rgba(255, 255, 255, 0.9);
     border-bottom: 1px solid black;
 }
 nav hr{
@@ -91,6 +103,33 @@ p,i{
     color: white;
 }
 
+footer{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(5px);
+}
+footer fieldset{
+    border: 2px solid #839A2C;
+    padding: 15px;
+    margin-bottom: 3px;
+}
+footer fieldset a{
+    text-decoration: none;
+    background-color: #839A2C;
+    border: 2px inset rgb(36, 38, 23);
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+footer fieldset a:hover{
+    text-decoration: none;
+    background-color: #a5c433;
+    border: 2px inset rgb(85, 91, 48);
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+}
+
 /*--- Class to be added to HTML by me (felixsheep) ---*/
 .nav-contact{
     display: flex;
@@ -101,6 +140,43 @@ p,i{
 .a-contactbtn{
     color: white;
     padding: 3px;
+}
+
+form{
+    width: 100%;
+    margin: 15px;
+}
+form fieldset{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    font-weight: bold;
+
+    background-color: #b04900;
+    color: white;
+    border-color: white;
+    border-radius: 15px;
+
+    padding: 15px;
+}
+form fieldset input{
+    width: 100%;
+    margin: 5px;
+}
+form fieldset button{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #E7A12C;
+    border: none;
+}
+form fieldset button:hover{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #94661a;
+    border: none;
 }
 
 /* Donate & Tickets: */
