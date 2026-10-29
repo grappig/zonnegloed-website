@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>zonnegloed</title>
+    <script src="assets/js/app.js"></script>
 </head>
 <body>
 <header>
@@ -21,17 +22,17 @@
     </div>
 
 <nav>
-    <a class="a-navbtn" href="#"><i class="fa-solid fa-compass"></i> Onze Missie</a>
+    <a class="a-navbtn" href="https://en.wikipedia.org/wiki/World_domination"><i class="fa-solid fa-compass"></i> Onze Missie</a>
     <hr>
-    <a class="a-navbtn" href="#"><i class="fa-solid fa-otter"></i> Onze Dieren</a>
+    <a class="a-navbtn" href="https://en.wikipedia.org/wiki/Jurassic_Park"><i class="fa-solid fa-otter"></i> Onze Dieren</a>
     <hr>
-    <a class="a-navbtn" href="#"><i class="fa-solid fa-map-location-dot"></i> Bezoek Ons</a>
+    <a class="a-navbtn" href="https://en.wikipedia.org/wiki/Five_Nights_at_Freddy%27s"><i class="fa-solid fa-map-location-dot"></i> Bezoek Ons</a>
     <hr>
-    <a class="a-navbtn" href="#"><i class="fa-solid fa-hand-holding-heart"></i> Help mee</a>
+    <a class="a-navbtn" href="https://www.gofundme.com/f/ein-mann-ein-traum-eine-sunseeker-superyacht?qid=d3eeef270133534cc64c0fff28bc904f&cp_src=d"><i class="fa-solid fa-hand-holding-heart"></i> Help mee</a>
     <hr>
     <a class="a-navbtn" href="adopt.html"><i class="fa-solid fa-hippo"></i> Adopt</a>
     <hr>
-    <a class="a-navbtn" href="#"><i class="fa-solid fa-square-plus"></i> Meer</a>
+    <a class="a-navbtn" href="https://nl.wikipedia.org/wiki/Meer_(Antwerpen)"><i class="fa-solid fa-square-plus"></i> Meer</a>
 </nav>
 
 
@@ -57,7 +58,11 @@
             </section>
         </article>
         <aside>
-            <img src="assets/img/aziatisch.png" alt="olifant.png" width="512" height="auto">
+            <img src="assets/img/aziatisch.png" alt="olifant.png" width="512" height="auto" usemap="#easter-egg">
+
+            <map name="easter-egg" id="easter-egg">
+                <area shape="circle" coords="50,50,25" target="_blank" href="https://www.youtube.com/watch?v=LFuk2AHe6Gw" alt="">
+            </map>
         </aside>
 
     </main>
@@ -69,6 +74,9 @@
         <a href="mailto:onthaal@dezonnegloed.be"><i class="fa-regular fa-envelope"></i> onthaal@dezonnegloed.be</a>
     </fieldset>
 </footer>
+
+<!--<audio src="assets/chicken-on-tree-screaming.mp3" autoplay></audio>-->
+<audio id="audio" src="assets/friendinme.mp3" autoplay hidden="hidden" loop controls></audio>
 
 </body>
 </html>
